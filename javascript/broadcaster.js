@@ -20,3 +20,7 @@ function onEnable() {
     Server.broadcastJsonMessage(message);
   }, 60000);
 }
+
+function onDisable() {
+  
+}
